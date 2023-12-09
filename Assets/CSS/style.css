@@ -1,0 +1,91 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ontop {
+    z-index: 6;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: rgb(0, 0, 0);
+}
+
+h1,
+h4 {
+    text-align: center;
+    color: white;
+}
+
+ul {
+    word-spacing: 10px;
+}
+
+.navigation {
+    display: inline;
+    list-style-type: none;
+    font-size: x-large;
+}
+
+a,
+a:hover,
+a:visited {
+    color: white;
+}
+
+.scroll {
+    z-index: 1;
+    background-color: #ffffff;
+}
+
+#logoquote {
+    position: relative;
+    top: 115px;
+}
+
+#border {
+    color: ;
+}
+
+img {
+    width: 45%;
+    /* Margin: auto; will not center an image horizontally without a width defined
+    and changing it to an inline element*/
+    margin: auto;
+    display: block;
+}
+
+p {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+#contact {
+    margin-top: 130px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+    background-color: #003547;
+    border: 20px solid white;
+}
+
+.form {
+    list-style-type: none;
+    font-weight: bold;
+}
+
+button {
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+}
